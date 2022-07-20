@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contactStyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Shop</a>
+            <a href="#" class="logo">Contact</a>
+            <a href="about.html" class="logo">About Us</a>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>    
+        </div>
+    </header>
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-form">
+        <form id="contact-form" action="contactform.php" method="post">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required> <br>
+            <input name="subject" type="text" class="form-control" placeholder="Subject" required> <br>
+            <textarea name="message" class="form-control" placeholder="Your Message" rows="6" required></textarea> <br>
+            <button type="submit" class="button" name="submit">SEND MAIL</button>
+        </form>
+    </div>
+</body>
+</html>
